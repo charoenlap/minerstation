@@ -1,3 +1,21 @@
+<div class="slider-area slider-dots-style-3">
+    <div  class="hero-slider-wrapper slider-area">
+      {% for banner in banners %}
+          <div class="single-slide slider-height-3  bg-img d-flex" data-bg-image="{{ banner.image }}">
+              <div class="container align-self-center">
+                  <div class="slider-content-1 slider-animated-1 text-left">
+                      <h1 class="animated color-black">
+                      {{ banner.title }}
+                      </h1>
+                      {#<p class="animated color-gray">DCS-934L day & night wifi camera.</p>#}
+                      <a href="{{ banner.link }}" class="shop-btn animated">SHOP NOW</a>
+                  </div>
+              </div>
+          </div>
+    {% endfor %}
+    </div>
+</div>
+{#
 <div class="slideshow swiper-viewport">
   <div id="slideshow{{ module }}" class="swiper-container">
     <div class="swiper-wrapper"> {% for banner in banners %}
@@ -24,3 +42,4 @@ $('#slideshow{{ module }}').swiper({
 	loop: true
 });
 //--></script>
+#}
