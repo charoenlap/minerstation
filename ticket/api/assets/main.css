@@ -1,0 +1,35 @@
+@font-face {
+  	font-family: Prompt;
+  	src: url(Prompt/Prompt-Light.ttf);
+}
+body,html {
+	font-family: Prompt !important;
+}
+
+
+/* navbar */
+/*.navbar {
+	padding-top: 40px !important;
+	padding-bottom: 20px !important;
+}*/
+
+
+/* btn */
+.btn-facebook {
+  background: #3b5998 !important;
+  border-color: #3b5998 !important;
+  color: #fff;
+}
+.btn-facebook:hover {
+  color: #fff;
+}
+.btn-gmail {
+  background: #dd4b39 !important;
+  border-color: #dd4b39 !important;
+  color: #fff;
+}
+.btn-gmail:hover {
+  color: #fff;
+}
+
+

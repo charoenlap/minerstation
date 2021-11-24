@@ -1,0 +1,61 @@
+/* body */
+body,html {
+  background: #fdfdfd !important;
+}
+
+/* nav */
+.navbar-light .navbar-brand {
+  color: #27a9b9 !important;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+  color: #27a9b9 !important;
+}
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #27a9b9 !important;
+}
+
+/* button */
+.btn-login {
+  background: #27a9b9 !important;
+  border-color: #27a9b9 !important;
+}
+.btn-facebook {
+  background: #3b5998 !important;
+  border-color: #3b5998 !important;
+  color: #fff;
+}
+.btn-facebook:hover {
+  color: #fff;
+}
+
+
+/* footer */
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  bottom: 0;
+  background: #f8f9fa;
+  padding: 10px;
+}
+footer .site-footer-legal {
+  color: #27a9b9;
+}
+
+
+
+/* register */
+/* card */
+.card-theme {
+  border-top: 3px solid #27a9b9;
+  box-shadow: 0px 10px 40px -10px rgba(0,64,128,0.2);
+}
+.card-theme-body {
+  padding: 20px;
+}
+/* text */
+.register-title {
+  color: #27a9b9;
+}

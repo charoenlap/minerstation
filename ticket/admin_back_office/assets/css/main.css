@@ -1,0 +1,141 @@
+.btn-search	{
+	margin-top: -10px;
+}
+#sidebar-wrapper .list-group .fas{
+	display: inline-block;
+    min-width: 25px;
+}
+.nav-underline .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+  color: #6c757d;
+}
+
+.nav-underline .nav-link:hover {
+  /*color: #007bff;*/
+  color: #27a9b9;
+}
+.nav-underline .nav-link{
+  /*border-top: solid 3px #e3e3e3;*/
+}
+.nav-underline .nav-link.active {
+  font-weight: 900;
+  /*color: #007bff;*/
+  /*border-top: solid 3px #007bff;*/
+  color: #27a9b9;
+}
+.breadcrumb {
+  margin-bottom: 0px;
+}
+nav.navbar + nav{
+  /*margin-bottom: -25px;*/
+}
+.select2-selection__rendered {
+    line-height: 38px !important;
+}
+.select2-container .select2-selection--single {
+    height: 38px !important;
+}
+.select2-selection__arrow {
+    height: 38px !important;
+}
+.min-box{
+  height: 30px !important;
+}
+.table-totle .form-group {
+  margin-bottom: 0px !important;
+}
+.handle {
+  color: #3e3e3e;
+}
+.handle:hover {
+  color: #e3e3e3;
+}
+
+
+
+/* FLASH CSS */
+
+/* menu */
+.menu-left {
+  background: #fff !important;
+}
+.menu-list {
+  background: #fff !important;
+}
+.menu-list a {
+  border: 0!important;
+  /*border-top: 1px solid #eee;*/
+  /*border-bottom: 1px solid #eee;*/
+}
+.list-group-flush:last-child 
+.list-group-item:last-child {
+  border-bottom: 1px solid #eee;
+}
+.list-group-item-action:hover {
+  background-color: #27a9b9;
+  color: #fff;
+  transition: all 0.5s;
+}
+.list-name-company {
+  background: #27a9b9;
+  color: #fff;
+}
+.list-group-item.active {
+  background-color: #27a9b9 !important; 
+}
+
+/* text */
+.text-theme {
+  color: #27a9b9;
+}
+.text-theme:hover {
+  color: #27a9b9;
+}
+
+/* button */
+.btn-theme {
+  background: #27a9b9 !important;
+  border-color: #27a9b9 !important;
+}
+
+/* breadcrumb */
+.breadcrumb {
+  background-color: #fff;
+  border-radius: 0;
+}
+.breadcrumb .breadcrumb-item a {
+  color: #333;
+}
+
+/* shadow */
+.shadow-theme {
+  box-shadow: 0px 10px 40px -10px rgba(0,64,128,0.2);
+}
+
+/* body */
+#page-content-wrapper {
+  /*background: #fdfdfd !important;*/
+  background-color: #f7f8fa !important;
+}
+#page-content-wrapper .container-fluid {
+  min-height: 83%;
+}
+
+/* title */
+.menu-title {
+  display: block;
+  width: 100%;
+  padding: 7px 10px;
+  background: #fff !important;
+  color: #333;
+  font-size: 18px;
+  border: 1px solid rgba(0,0,0,0.125);
+}
+
+/* footer */
+footer {
+  /*background: #fff;*/
+  padding: 10px 0;
+}
