@@ -4,7 +4,7 @@ class ControllerCommonCart extends Controller {
 		$this->load->language('common/cart');
 
 		// Totals
-		$this->load->model('setting/extension');
+		$this->load->model('setting/extension'); 
 
 		$totals = array();
 		$taxes = $this->cart->getTaxes();
