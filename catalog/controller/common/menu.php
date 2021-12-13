@@ -11,7 +11,7 @@ class ControllerCommonMenu extends Controller {
 		$data['categories'] = array();
 
 		$categories = $this->model_catalog_category->getCategories(0);
-
+		// var_dump($categories);exit();
 		foreach ($categories as $category) {
 			if ($category['top']) {
 				// Level 2
@@ -40,7 +40,8 @@ class ControllerCommonMenu extends Controller {
 				);
 			}
 		}
-
+		// var_dump($data['categories']);exit();
+		$data['contact'] = $this->url->link('information/contact');
 		return $this->load->view('common/menu', $data);
 	}
 }
