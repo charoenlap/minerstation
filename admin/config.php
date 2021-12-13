@@ -65,8 +65,8 @@ if($_SERVER['SERVER_NAME']=='localhost'){
 	// DB
 	define('DB_DRIVER', 'mysqli');
 	define('DB_HOSTNAME', 'localhost');
-	define('DB_USERNAME', 'root');
-	define('DB_PASSWORD', 'root');
+	define('DB_USERNAME', 'hostphp7_miners');
+	define('DB_PASSWORD', 'ouGz0TuOBL');
 	define('DB_DATABASE', 'hostphp7_miners');
 	define('DB_PORT', '3306');
 	define('DB_PREFIX', 'ms_');
