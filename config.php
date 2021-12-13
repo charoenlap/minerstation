@@ -22,15 +22,15 @@ if($_SERVER['SERVER_NAME']=='localhost'){
 	define('DB_PREFIX', 'ms_');
 }else{
 	// HTTP
-	define('HTTP_SERVER', 'http://43.229.77.178/~hostphp7/minerstation/');
+	define('HTTP_SERVER', 'http://minerstation-th.com/');
 
 	// HTTPS
-	define('HTTPS_SERVER', 'http://43.229.77.178/~hostphp7/minerstation/');
+	define('HTTPS_SERVER', 'http://minerstation-th.com/');
 
 	// DIR
-	define('DIR_APPLICATION', '/home/hostphp7/domains/hostphp7.com/public_html/minerstation/catalog/');
-	define('DIR_SYSTEM', '/home/hostphp7/domains/hostphp7.com/public_html/minerstation/system/');
-	define('DIR_IMAGE', '/home/hostphp7/domains/hostphp7.com/public_html/minerstation/image/');
+	define('DIR_APPLICATION', '/home/miners/domains/minerstation-th.com/public_html/catalog/');
+	define('DIR_SYSTEM', '/home/miners/domains/minerstation-th.com/public_html/system/');
+	define('DIR_IMAGE', '/home/miners/domains/minerstation-th.com/public_html/image/');
 
 	// DB
 	define('DB_DRIVER', 'mysqli');
